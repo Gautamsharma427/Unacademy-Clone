@@ -1,0 +1,54 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+::placeholder{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo_img{
+    width: 14%;
+    margin-left: 17px;
+}
+.header{
+    height:100vh;
+    width:100vw;
+    background-image:url('Unacademy.png');
+    background-size:100% 80%;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: #f6fafd;
+}
+nav{
+    height: 90w;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+}
+.header input{
+    position: absolute;
+    bottom:30%;
+    left: 5%;
+    padding:10px 15px;
+    border:1px solid grey;
+    outline: none;
+
+}
+.headersection h1{
+    font-weight: 900;
+    font-size: 29px;
+}
+.headersection{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    place-items:center;
+    margin-left: 4pc;
+    height:90vh;
+}
+nav button{
+    background-color: rgb(34, 255, 0);
+    outline:none;
+    border: none;
+    padding:7px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
